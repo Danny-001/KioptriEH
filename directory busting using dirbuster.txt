@@ -1,0 +1,77 @@
+directory busting using dirbuster 
+
+$ dirbuster&                                                                                                                                                                                                                             
+[1] 15995 
+
+.OWASP will launch 
+
+Settings: address - http://10.0.2.4:80/
+          faster
+          browse for wordlists
+
+Output L:
+
+$ Picked up _JAVA_OPTIONS: -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true                                                                                                                                                          
+Starting OWASP DirBuster 1.0-RC1                                                                                                                                                                                                           
+Starting dir/file list based brute forcing                                                                                                                                                                                                 
+Dir found: / - 200                                                                                                                                                                                                                         
+Dir found: /cgi-bin/ - 403
+Dir found: /icons/ - 200
+Dir found: /doc/ - 403
+Dir found: /manual/ - 200
+Dir found: /manual/mod/ - 200
+File found: /test.php - 200
+Dir found: /usage/ - 200
+File found: /usage/usage_202603.html - 200
+File found: /usage/usage_200909.html - 200
+ERROR: http://10.0.2.4:80/cgi-bin/view/ - ConnectTimeoutException The host did not accept the connection within timeout of 30000 ms
+ERROR: http://10.0.2.4:80/cgi-bin/product.php - ConnectTimeoutException The host did not accept the connection within timeout of 30000 ms
+File found: /mrtg/mrtg.html - 200
+Dir found: /mrtg/ - 200
+File found: /mrtg/unix-guide.html - 200
+File found: /mrtg/indexmaker.html - 200
+File found: /mrtg/forum.html - 200
+File found: /mrtg/contrib.html - 200
+File found: /mrtg/cfgmaker.html - 200
+File found: /mrtg/nt-guide.html - 200
+File found: /mrtg/logfile.html - 200
+File found: /mrtg/mrtg-rrd.html - 200
+File found: /mrtg/mibhelp.html - 200
+Mar 19, 2026 6:55:19 AM au.id.jericho.lib.html.LoggerProviderJava$JavaLogger info
+INFO: StartTag a at (r93,c5,p3708) rejected because the name contains an invalid character at position (r93,c7,p3710)
+Mar 19, 2026 6:55:19 AM au.id.jericho.lib.html.LoggerProviderJava$JavaLogger info
+INFO: Encountered possible StartTag at (r93,c5,p3708) whose content does not match a registered StartTagType
+Mar 19, 2026 6:55:19 AM au.id.jericho.lib.html.LoggerProviderJava$JavaLogger info
+INFO: StartTag a at (r104,c5,p4369) rejected because the name contains an invalid character at position (r104,c7,p4371)
+Mar 19, 2026 6:55:19 AM au.id.jericho.lib.html.LoggerProviderJava$JavaLogger info
+INFO: Encountered possible StartTag at (r104,c5,p4369) whose content does not match a registered StartTagType
+File found: /mrtg/faq.html - 200
+File found: /mrtg/webserver.html - 200
+File found: /mrtg/squid.html - 200
+File found: /mrtg/reference.html - 200
+Dir found: /icons/small/ - 200
+ERROR: http://10.0.2.4:80/doc/adimage/ - ConnectTimeoutException The host did not accept the connection within timeout of 30000 ms
+ERROR: http://10.0.2.4:80/manual/mod/newsvine/ - ConnectTimeoutException The host did not accept the connection within timeout of 30000 ms
+ERROR: http://10.0.2.4:80/doc/Browsers.php - ConnectTimeoutException The host did not accept the connection within timeout of 30000 ms
+ERROR: http://10.0.2.4:80/icons/newlogo/ - ConnectTimeoutException The host did not accept the connection within timeout of 30000 ms
+ERROR: http://10.0.2.4:80/doc/nm.php - ConnectTimeoutException The host did not accept the connection within timeout of 30000 ms
+ERROR: http://10.0.2.4:80/usage/OpenBSD.php - ConnectTimeoutException The host did not accept the connection within timeout of 30000 ms
+ERROR: http://10.0.2.4:80/icons/small/593/ - ConnectTimeoutException The host did not accept the connection within timeout of 30000 ms
+ERROR: http://10.0.2.4:80/mrtg/top_logo/ - ConnectTimeoutException The host did not accept the connection within timeout of 30000 ms
+ERROR: http://10.0.2.4:80/manual/mod/porn/ - ConnectTimeoutException The host did not accept the connection within timeout of 30000 ms
+ERROR: http://10.0.2.4:80/manual/0001/ - ConnectTimeoutException The host did not accept the connection within timeout of 30000 ms
+ERROR: http://10.0.2.4:80/icons/small/525/ - ConnectTimeoutException The host did not accept the connection within timeout of 30000 ms
+ERROR: http://10.0.2.4:80/mrtg/attachment/ - ConnectTimeoutException The host did not accept the connection within timeout of 30000 ms
+ERROR: http://10.0.2.4:80/manual/mod/919.php - ConnectTimeoutException The host did not accept the connection within timeout of 30000 ms
+ERROR: http://10.0.2.4:80/med.php - ConnectTimeoutException The host did not accept the connection within timeout of 30000 ms
+ERROR: http://10.0.2.4:80/cgi-bin/567.php - ConnectTimeoutException The host did not accept the connection within timeout of 30000 ms
+ERROR: http://10.0.2.4:80/usage/inet.php - ConnectTimeoutException The host did not accept the connection within timeout of 30000 ms
+ERROR: http://10.0.2.4:80/mrtg/magnolia/ - ConnectTimeoutException The host did not accept the connection within timeout of 30000 ms
+ERROR: http://10.0.2.4:80/mrtg/afghanistan.php - ConnectTimeoutException The host did not accept the connection within timeout of 30000 ms
+ERROR: http://10.0.2.4:80/doc/colleges/ - ConnectTimeoutException The host did not accept the connection within timeout of 30000 ms
+ERROR: http://10.0.2.4:80/1484/ - ConnectTimeoutException The host did not accept the connection within timeout of 30000 ms
+ERROR: http://10.0.2.4:80/usage/productivity/ - ConnectTimeoutException The host did not accept the connection within timeout of 30000 ms
+ERROR: http://10.0.2.4:80/cgi-bin/1246.php - ConnectTimeoutException The host did not accept the connection within timeout of 30000 ms
+ERROR: http://10.0.2.4:80/usage/Management.php - ConnectTimeoutException The host did not accept the connection within timeout of 30000 ms
+(i-search)`': DirBuster Stopped
+^C

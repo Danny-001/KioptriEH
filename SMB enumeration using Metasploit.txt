@@ -1,0 +1,74 @@
+SMB enumeration using Metasploit 
+
+Launch msfconsole.......
+
+Then : search smb
+
+Section of output: 
+
+ auxiliary/admin/smb/download_file                                                   normal     No     SMB File Download Utility
+   97   auxiliary/admin/smb/upload_file                                                     normal     No     SMB File Upload Utility
+   98   auxiliary/scanner/smb/smb_enum_gpp                                                  normal     No     SMB Group Policy Preference Saved Passwords Enumeration
+   99   auxiliary/scanner/smb/smb_login                                                     normal     No     SMB Login Check Scanner
+   100  auxiliary/fuzzers/smb/smb_ntlm1_login_corrupt                                       normal     No     SMB NTLMv1 Login Request Corruption
+   101  auxiliary/fuzzers/smb/smb_negotiate_corrupt                                         normal     No     SMB Negotiate Dialect Corruption
+   102  auxiliary/fuzzers/smb/smb2_negotiate_corrupt                                        normal     No     SMB Negotiate SMB2 Dialect Corruption
+   103  auxiliary/scanner/smb/smb_lookupsid                                                 normal     No     SMB SID User Enumeration (LookupSid)
+   104  auxiliary/admin/smb/check_dir_file                                                  normal     No     SMB Scanner Check File/Directory Utility
+   105  auxiliary/scanner/smb/pipe_auditor                                                  normal     No     SMB Session Pipe Auditor
+   106  auxiliary/scanner/smb/pipe_dcerpc_auditor                                           normal     No     SMB Session Pipe DCERPC Auditor
+   107  auxiliary/scanner/smb/smb_enumshares                                                normal     No     SMB Share Enumeration
+   108  auxiliary/fuzzers/smb/smb_tree_connect_corrupt                                      normal     No     SMB Tree Connect Request Corruption
+   109  auxiliary/fuzzers/smb/smb_tree_connect                                              normal     No     SMB Tree Connect Request Fuzzer
+   110  auxiliary/scanner/smb/smb_enumusers                                                 normal     No     SMB User Enumeration (SAM EnumUsers)
+   111  auxiliary/scanner/smb/smb_version                                                   normal     No     SMB Version Detection
+   112  auxiliary/dos/smb/smb_loris                                        2017-06-29       normal     No     SMBLoris NBSS Denial of Service
+   113  exploit/windows/local/cve_2020_0796_smbghost                       2020-03-13       good       Yes    SMBv3 Compression Buffer Overflow
+   114  exploit/windows/smb/cve_2020_0796_smbghost                         2020-03-13       average    Yes    SMBv3 Compression Buffer Overflow
+   115  auxiliary/scanner/snmp/snmp_enumshares                                              normal     No     SNMP Windows SMB Share Enumeration
+   116  auxiliary/admin/smb/samba_symlink_traversal                                         normal     No     Samba Symlink Directory Traversal
+   117  auxiliary/scanner/smb/smb_uninit_cred                                               normal     Yes    Samba _netr_ServerPasswordSet Uninitialized Credential State
+   118  exploit/linux/samba/chain_reply                                    2010-06-16       good       No     Samba chain_reply Memory Corruption (Linux x86)
+   119  auxiliary/dos/samba/read_nttrans_ea_list                                            normal     No     Samba read_nttrans_ea_list Integer Overflow
+   120  exploit/multi/ids/snort_dce_rpc                                    2007-02-19       good       No     Snort 2 DCE/RPC Preprocessor Buffer Overflow
+   121  exploit/windows/browser/java_ws_double_quote                       2012-10-16       excellent  No     Sun Java Web Start Double Quote Injection
+
+
+Then, to find SMB version we use line 111 of the output 
+
+Therefore : Use 111
+
+Then : options 
+
+Then set RHOSTS : set RHOSTS 10.0.2.4 the run
+
+
+
+msf6 > use 111
+msf6 auxiliary(scanner/smb/smb_version) > options
+
+Module options (auxiliary/scanner/smb/smb_version):
+
+   Name     Current Setting  Required  Description
+   ----     ---------------  --------  -----------
+   RHOSTS                    yes       The target host(s), see https://docs.metasploit.com/docs/using-metasploit/basics/using-metasploit.html
+   THREADS  1                yes       The number of concurrent threads (max one per host)
+
+
+View the full module info with the info, or info -d command.
+
+msf6 auxiliary(scanner/smb/smb_version) > set RHOSTS 10.0.2.4
+RHOSTS => 10.0.2.4
+msf6 auxiliary(scanner/smb/smb_version) > run
+
+[*] 10.0.2.4:139          - SMB Detected (versions:) (preferred dialect:) (signatures:optional)
+[*] 10.0.2.4:139          -   Host could not be identified: Unix (Samba 2.2.1a)
+[*] 10.0.2.4:             - Scanned 1 of 1 hosts (100% complete)
+[*] Auxiliary module execution completed
+
+
+
+Conclusion :
+
+ Unix (Samba 2.2.1a)
+
