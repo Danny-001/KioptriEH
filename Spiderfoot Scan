@@ -1,0 +1,558 @@
+spiderfoot -l 127.0.0.1:5001
+
+*************************************************************
+ Use SpiderFoot by starting your web browser of choice and 
+ browse to http://127.0.0.1:5001/
+*************************************************************
+
+2026-06-05 01:55:35,739 [INFO] sf : Starting web server at 127.0.0.1:5001 ...
+2026-06-05 01:55:35,755 [WARNING] sf : 
+********************************************************************
+Warning: passwd file contains no passwords. Authentication disabled.
+Please consider adding authentication to protect this instance!
+Refer to https://www.spiderfoot.net/documentation/#security.
+********************************************************************
+
+2026-06-05 02:02:45,884 [INFO] sfwebui : Waiting for the scan to initialize...
+2026-06-05 02:02:46,235 [INFO] sflib : Downloading configuration data from: https://publicsuffix.org/list/effective_tld_names.dat
+2026-06-05 02:02:46,801 [INFO] sflib : Scan [F8A47A7C] for '192.168.1.67' initiated.
+2026-06-05 02:02:46,821 [INFO] sflib : sfp__stor_db module loaded.
+2026-06-05 02:02:46,862 [INFO] sflib : sfp_abstractapi module loaded.
+2026-06-05 02:02:46,905 [INFO] sflib : sfp_abusech module loaded.
+2026-06-05 02:02:46,995 [INFO] sflib : sfp_abuseipdb module loaded.
+2026-06-05 02:02:47,024 [INFO] sflib : sfp_abusix module loaded.
+2026-06-05 02:02:50,753 [INFO] sflib : Fetching (GET): https://raw.githubusercontent.com/WebBreacher/WhatsMyName/master/web_accounts_list.json (proxy=None, user-agent=SpiderFoot, timeout=30, cookies=None)
+2026-06-05 02:02:51,274 [INFO] sflib : Fetched https://raw.githubusercontent.com/WebBreacher/WhatsMyName/master/web_accounts_list.json (14 bytes in 0.5210599899291992s)
+2026-06-05 02:02:51,277 [ERROR] sfp_accounts : Unable to parse social media accounts list: Extra data: line 1 column 4 (char 3)
+2026-06-05 02:02:51,278 [INFO] sflib : sfp_accounts module loaded.
+2026-06-05 02:02:51,328 [INFO] sflib : sfp_adblock module loaded.
+2026-06-05 02:02:51,339 [INFO] sflib : sfp_adguard_dns module loaded.
+2026-06-05 02:02:51,352 [INFO] sflib : sfp_ahmia module loaded.
+2026-06-05 02:02:51,362 [INFO] sflib : sfp_alienvault module loaded.
+2026-06-05 02:02:51,369 [INFO] sflib : sfp_alienvaultiprep module loaded.
+2026-06-05 02:02:51,378 [INFO] sflib : sfp_apple_itunes module loaded.
+2026-06-05 02:02:51,424 [INFO] sflib : sfp_archiveorg module loaded.
+2026-06-05 02:02:51,434 [INFO] sflib : sfp_arin module loaded.
+2026-06-05 02:02:51,443 [INFO] sflib : sfp_azureblobstorage module loaded.
+2026-06-05 02:02:51,453 [INFO] sflib : sfp_badpackets module loaded.
+2026-06-05 02:02:51,460 [INFO] sflib : sfp_base64 module loaded.
+2026-06-05 02:02:51,471 [INFO] sflib : sfp_bgpview module loaded.
+2026-06-05 02:02:51,479 [INFO] sflib : sfp_binaryedge module loaded.
+2026-06-05 02:02:51,489 [INFO] sflib : sfp_bingsearch module loaded.
+2026-06-05 02:02:51,499 [INFO] sflib : sfp_bingsharedip module loaded.
+2026-06-05 02:02:54,360 [INFO] sflib : sfp_binstring module loaded.
+2026-06-05 02:02:54,404 [INFO] sflib : sfp_bitcoin module loaded.
+2026-06-05 02:02:54,415 [INFO] sflib : sfp_bitcoinabuse module loaded.
+2026-06-05 02:02:54,426 [INFO] sflib : sfp_bitcoinwhoswho module loaded.
+2026-06-05 02:02:54,438 [INFO] sflib : sfp_blockchain module loaded.
+2026-06-05 02:02:54,519 [INFO] sflib : sfp_blocklistde module loaded.
+2026-06-05 02:02:54,537 [INFO] sflib : sfp_botscout module loaded.
+2026-06-05 02:02:54,555 [INFO] sflib : sfp_botvrij module loaded.
+2026-06-05 02:02:54,566 [INFO] sflib : sfp_builtwith module loaded.
+2026-06-05 02:02:54,588 [INFO] sflib : sfp_c99 module loaded.
+2026-06-05 02:02:54,651 [INFO] sflib : sfp_callername module loaded.
+2026-06-05 02:02:54,672 [INFO] sflib : sfp_censys module loaded.
+2026-06-05 02:02:54,695 [INFO] sflib : sfp_certspotter module loaded.
+2026-06-05 02:02:54,715 [INFO] sflib : sfp_cinsscore module loaded.
+2026-06-05 02:02:54,740 [INFO] sflib : sfp_circllu module loaded.
+2026-06-05 02:02:54,754 [INFO] sflib : sfp_citadel module loaded.
+2026-06-05 02:02:54,766 [INFO] sflib : sfp_cleanbrowsing module loaded.
+2026-06-05 02:02:54,779 [INFO] sflib : sfp_cleantalk module loaded.
+2026-06-05 02:02:54,791 [INFO] sflib : sfp_clearbit module loaded.
+2026-06-05 02:02:54,816 [INFO] sflib : sfp_cloudflaredns module loaded.
+2026-06-05 02:02:54,844 [INFO] sflib : sfp_coinblocker module loaded.
+2026-06-05 02:02:54,870 [INFO] sflib : sfp_commoncrawl module loaded.
+2026-06-05 02:02:54,898 [INFO] sflib : sfp_comodo module loaded.
+2026-06-05 02:02:54,925 [INFO] sflib : sfp_company module loaded.
+2026-06-05 02:02:54,949 [INFO] sflib : sfp_cookie module loaded.
+2026-06-05 02:02:54,970 [INFO] sflib : sfp_countryname module loaded.
+2026-06-05 02:02:54,989 [INFO] sflib : sfp_creditcard module loaded.
+2026-06-05 02:02:55,012 [INFO] sflib : sfp_crobat_api module loaded.
+2026-06-05 02:02:55,033 [INFO] sflib : sfp_crossref module loaded.
+2026-06-05 02:02:55,063 [INFO] sflib : sfp_crt module loaded.
+2026-06-05 02:02:55,093 [INFO] sflib : sfp_crxcavator module loaded.
+2026-06-05 02:02:55,120 [INFO] sflib : sfp_customfeed module loaded.
+2026-06-05 02:02:55,144 [INFO] sflib : sfp_cybercrimetracker module loaded.
+2026-06-05 02:02:55,158 [INFO] sflib : sfp_darksearch module loaded.
+2026-06-05 02:02:55,172 [INFO] sflib : sfp_debounce module loaded.
+2026-06-05 02:02:55,180 [INFO] sflib : sfp_dehashed module loaded.
+2026-06-05 02:02:55,192 [INFO] sflib : sfp_digitaloceanspace module loaded.
+2026-06-05 02:02:55,206 [INFO] sflib : sfp_dns_for_family module loaded.
+2026-06-05 02:02:55,220 [INFO] sflib : sfp_dnsbrute module loaded.
+2026-06-05 02:02:55,236 [INFO] sflib : sfp_dnscommonsrv module loaded.
+2026-06-05 02:02:55,249 [INFO] sflib : sfp_dnsdb module loaded.
+2026-06-05 02:02:55,467 [INFO] sflib : sfp_dnsdumpster module loaded.
+2026-06-05 02:02:55,479 [INFO] sflib : sfp_dnsgrep module loaded.
+2026-06-05 02:02:55,494 [INFO] sflib : sfp_dnsneighbor module loaded.
+2026-06-05 02:02:55,511 [INFO] sflib : sfp_dnsraw module loaded.
+2026-06-05 02:02:55,529 [INFO] sfp_dnsresolve : Identifying aliases for specified target(s)
+2026-06-05 02:02:55,555 [INFO] sflib : sfp_dnsresolve module loaded.
+2026-06-05 02:02:55,573 [INFO] sflib : sfp_dnszonexfer module loaded.
+2026-06-05 02:02:55,604 [INFO] sflib : sfp_dronebl module loaded.
+2026-06-05 02:02:55,623 [INFO] sflib : sfp_duckduckgo module loaded.
+2026-06-05 02:02:55,632 [INFO] sflib : sfp_email module loaded.
+2026-06-05 02:02:55,650 [INFO] sflib : sfp_emailcrawlr module loaded.
+2026-06-05 02:02:55,668 [INFO] sflib : sfp_emailformat module loaded.
+2026-06-05 02:02:55,685 [INFO] sflib : sfp_emailrep module loaded.
+2026-06-05 02:02:55,702 [INFO] sflib : sfp_emergingthreats module loaded.
+2026-06-05 02:02:55,722 [INFO] sflib : sfp_errors module loaded.
+2026-06-05 02:02:55,734 [INFO] sflib : sfp_ethereum module loaded.
+2026-06-05 02:02:55,744 [INFO] sflib : sfp_etherscan module loaded.
+2026-06-05 02:02:55,755 [INFO] sflib : sfp_filemeta module loaded.
+2026-06-05 02:02:55,801 [INFO] sflib : sfp_flickr module loaded.
+2026-06-05 02:02:55,833 [INFO] sflib : sfp_focsec module loaded.
+2026-06-05 02:02:55,868 [INFO] sflib : sfp_fortinet module loaded.
+2026-06-05 02:02:55,910 [INFO] sflib : sfp_fraudguard module loaded.
+2026-06-05 02:02:55,950 [INFO] sflib : sfp_fsecure_riddler module loaded.
+2026-06-05 02:02:55,995 [INFO] sflib : sfp_fullcontact module loaded.
+2026-06-05 02:02:56,031 [INFO] sflib : sfp_fullhunt module loaded.
+2026-06-05 02:02:56,066 [INFO] sflib : sfp_github module loaded.
+2026-06-05 02:02:56,102 [INFO] sflib : sfp_gleif module loaded.
+2026-06-05 02:02:56,136 [INFO] sflib : sfp_googlemaps module loaded.
+2026-06-05 02:02:56,165 [INFO] sflib : sfp_googleobjectstorage module loaded.
+2026-06-05 02:02:56,194 [INFO] sflib : sfp_googlesafebrowsing module loaded.
+2026-06-05 02:02:56,226 [INFO] sflib : sfp_googlesearch module loaded.
+2026-06-05 02:02:56,254 [INFO] sflib : sfp_gravatar module loaded.
+2026-06-05 02:02:56,264 [INFO] sflib : sfp_grayhatwarfare module loaded.
+2026-06-05 02:02:56,290 [INFO] sflib : sfp_greensnow module loaded.
+2026-06-05 02:02:56,309 [INFO] sflib : sfp_grep_app module loaded.
+2026-06-05 02:02:56,327 [INFO] sflib : sfp_greynoise module loaded.
+2026-06-05 02:02:56,349 [INFO] sflib : sfp_h1nobbdde module loaded.
+2026-06-05 02:02:56,377 [INFO] sflib : sfp_hackertarget module loaded.
+2026-06-05 02:02:56,395 [INFO] sflib : sfp_hashes module loaded.
+2026-06-05 02:02:56,405 [INFO] sflib : sfp_haveibeenpwned module loaded.
+2026-06-05 02:02:56,424 [INFO] sflib : sfp_honeypot module loaded.
+2026-06-05 02:02:56,438 [INFO] sflib : sfp_hosting module loaded.
+2026-06-05 02:02:56,463 [INFO] sflib : sfp_hostio module loaded.
+2026-06-05 02:02:56,484 [INFO] sflib : sfp_hunter module loaded.
+2026-06-05 02:02:56,503 [INFO] sflib : sfp_hybrid_analysis module loaded.
+2026-06-05 02:02:56,522 [INFO] sflib : sfp_iban module loaded.
+2026-06-05 02:02:56,541 [INFO] sflib : sfp_iknowwhatyoudownload module loaded.
+2026-06-05 02:02:56,558 [INFO] sflib : sfp_instagram module loaded.
+2026-06-05 02:02:56,570 [INFO] sflib : sfp_intelx module loaded.
+2026-06-05 02:02:56,589 [INFO] sflib : sfp_intfiles module loaded.
+2026-06-05 02:02:56,612 [INFO] sflib : sfp_ipapico module loaded.
+2026-06-05 02:02:56,635 [INFO] sflib : sfp_ipapicom module loaded.
+2026-06-05 02:02:56,653 [INFO] sflib : sfp_ipinfo module loaded.
+2026-06-05 02:02:56,670 [INFO] sflib : sfp_ipqualityscore module loaded.
+2026-06-05 02:02:56,687 [INFO] sflib : sfp_ipregistry module loaded.
+2026-06-05 02:02:56,703 [INFO] sflib : sfp_ipstack module loaded.
+2026-06-05 02:02:56,721 [INFO] sflib : sfp_isc module loaded.
+2026-06-05 02:02:56,741 [INFO] sflib : sfp_jsonwhoiscom module loaded.
+2026-06-05 02:02:56,757 [INFO] sflib : sfp_junkfiles module loaded.
+2026-06-05 02:02:56,774 [INFO] sflib : sfp_keybase module loaded.
+2026-06-05 02:02:56,799 [INFO] sflib : sfp_koodous module loaded.
+2026-06-05 02:02:56,815 [INFO] sflib : sfp_leakix module loaded.
+2026-06-05 02:02:56,832 [INFO] sflib : sfp_maltiverse module loaded.
+2026-06-05 02:02:56,841 [INFO] sflib : sfp_malwarepatrol module loaded.
+2026-06-05 02:02:56,850 [INFO] sflib : sfp_metadefender module loaded.
+2026-06-05 02:02:56,860 [INFO] sflib : sfp_mnemonic module loaded.
+2026-06-05 02:02:56,876 [INFO] sflib : sfp_multiproxy module loaded.
+2026-06-05 02:02:56,913 [INFO] sflib : sfp_myspace module loaded.
+2026-06-05 02:02:56,956 [INFO] sflib : sfp_nameapi module loaded.
+2026-06-05 02:03:01,053 [INFO] sflib : sfp_names module loaded.
+2026-06-05 02:03:01,098 [INFO] sflib : sfp_networksdb module loaded.
+2026-06-05 02:03:01,107 [INFO] sflib : sfp_neutrinoapi module loaded.
+2026-06-05 02:03:01,115 [INFO] sflib : sfp_numverify module loaded.
+2026-06-05 02:03:01,122 [INFO] sflib : sfp_onioncity module loaded.
+2026-06-05 02:03:01,129 [INFO] sflib : sfp_onionsearchengine module loaded.
+2026-06-05 02:03:01,136 [INFO] sflib : sfp_onyphe module loaded.
+2026-06-05 02:03:01,179 [INFO] sflib : sfp_open_passive_dns_database module loaded.
+2026-06-05 02:03:01,408 [INFO] sflib : sfp_openbugbounty module loaded.
+2026-06-05 02:03:01,414 [INFO] sflib : sfp_opencorporates module loaded.
+2026-06-05 02:03:01,421 [INFO] sflib : sfp_opendns module loaded.
+2026-06-05 02:03:01,428 [INFO] sflib : sfp_opennic module loaded.
+2026-06-05 02:03:01,435 [INFO] sflib : sfp_openphish module loaded.
+2026-06-05 02:03:01,443 [INFO] sflib : sfp_openstreetmap module loaded.
+2026-06-05 02:03:01,452 [INFO] sflib : sfp_pageinfo module loaded.
+2026-06-05 02:03:01,459 [INFO] sflib : sfp_pastebin module loaded.
+2026-06-05 02:03:01,465 [INFO] sflib : sfp_pgp module loaded.
+2026-06-05 02:03:01,473 [INFO] sflib : sfp_phishstats module loaded.
+2026-06-05 02:03:01,481 [INFO] sflib : sfp_phishtank module loaded.
+2026-06-05 02:03:01,488 [INFO] sflib : sfp_phone module loaded.
+2026-06-05 02:03:01,497 [INFO] sflib : sfp_portscan_tcp module loaded.
+2026-06-05 02:03:01,511 [INFO] sflib : sfp_projectdiscovery module loaded.
+2026-06-05 02:03:01,522 [INFO] sflib : sfp_psbdmp module loaded.
+2026-06-05 02:03:01,531 [INFO] sflib : sfp_pulsedive module loaded.
+2026-06-05 02:03:01,540 [INFO] sflib : sfp_punkspider module loaded.
+2026-06-05 02:03:01,548 [INFO] sflib : sfp_quad9 module loaded.
+2026-06-05 02:03:01,555 [INFO] sflib : sfp_recondev module loaded.
+2026-06-05 02:03:01,563 [INFO] sflib : sfp_reversewhois module loaded.
+2026-06-05 02:03:01,574 [INFO] sflib : sfp_ripe module loaded.
+2026-06-05 02:03:01,581 [INFO] sflib : sfp_riskiq module loaded.
+2026-06-05 02:03:01,588 [INFO] sflib : sfp_robtex module loaded.
+2026-06-05 02:03:01,595 [INFO] sflib : sfp_s3bucket module loaded.
+2026-06-05 02:03:01,603 [INFO] sflib : sfp_scylla module loaded.
+2026-06-05 02:03:01,610 [INFO] sflib : sfp_searchcode module loaded.
+2026-06-05 02:03:01,617 [INFO] sflib : sfp_securitytrails module loaded.
+2026-06-05 02:03:01,625 [INFO] sflib : sfp_seon module loaded.
+2026-06-05 02:03:01,632 [INFO] sflib : sfp_shodan module loaded.
+2026-06-05 02:03:01,640 [INFO] sflib : sfp_similar module loaded.
+2026-06-05 02:03:01,648 [INFO] sflib : sfp_skymem module loaded.
+2026-06-05 02:03:01,656 [INFO] sflib : sfp_slideshare module loaded.
+2026-06-05 02:03:01,664 [INFO] sflib : sfp_snov module loaded.
+2026-06-05 02:03:01,672 [INFO] sflib : sfp_social module loaded.
+2026-06-05 02:03:01,682 [INFO] sflib : sfp_sociallinks module loaded.
+2026-06-05 02:03:01,694 [INFO] sflib : sfp_socialprofiles module loaded.
+2026-06-05 02:03:01,702 [INFO] sflib : sfp_sorbs module loaded.
+2026-06-05 02:03:01,708 [INFO] sflib : sfp_spamcop module loaded.
+2026-06-05 02:03:01,715 [INFO] sflib : sfp_spamhaus module loaded.
+2026-06-05 02:03:01,723 [INFO] sflib : sfp_spider module loaded.
+2026-06-05 02:03:01,730 [INFO] sflib : sfp_spur module loaded.
+2026-06-05 02:03:01,739 [INFO] sflib : sfp_spyonweb module loaded.
+2026-06-05 02:03:01,746 [INFO] sflib : sfp_spyse module loaded.
+2026-06-05 02:03:01,754 [INFO] sflib : sfp_sslcert module loaded.
+2026-06-05 02:03:01,762 [INFO] sflib : sfp_stackoverflow module loaded.
+2026-06-05 02:03:01,769 [INFO] sflib : sfp_stevenblack_hosts module loaded.
+2026-06-05 02:03:01,776 [INFO] sflib : sfp_strangeheaders module loaded.
+2026-06-05 02:03:01,787 [INFO] sflib : Fetching (GET): https://raw.githubusercontent.com/haccer/subjack/master/fingerprints.json (proxy=None, user-agent=SpiderFoot, timeout=30, cookies=None)
+2026-06-05 02:03:02,281 [INFO] sflib : Fetched https://raw.githubusercontent.com/haccer/subjack/master/fingerprints.json (14 bytes in 0.4942653179168701s)
+2026-06-05 02:03:02,284 [ERROR] sfp_subdomain_takeover : Unable to parse subdomain takeover fingerprints list: Extra data: line 1 column 4 (char 3)
+2026-06-05 02:03:02,285 [INFO] sflib : sfp_subdomain_takeover module loaded.
+2026-06-05 02:03:02,295 [INFO] sflib : sfp_sublist3r module loaded.
+2026-06-05 02:03:02,301 [INFO] sflib : sfp_surbl module loaded.
+2026-06-05 02:03:02,311 [INFO] sflib : sfp_talosintel module loaded.
+2026-06-05 02:03:02,323 [INFO] sflib : sfp_textmagic module loaded.
+2026-06-05 02:03:02,338 [INFO] sflib : sfp_threatcrowd module loaded.
+2026-06-05 02:03:02,346 [INFO] sflib : sfp_threatfox module loaded.
+2026-06-05 02:03:02,355 [INFO] sflib : sfp_threatminer module loaded.
+2026-06-05 02:03:02,366 [INFO] sflib : sfp_tldsearch module loaded.
+2026-06-05 02:03:02,373 [INFO] sflib : sfp_tool_cmseek module loaded.
+2026-06-05 02:03:02,381 [INFO] sflib : sfp_tool_dnstwist module loaded.
+2026-06-05 02:03:02,388 [INFO] sflib : sfp_tool_nbtscan module loaded.
+2026-06-05 02:03:02,395 [INFO] sflib : sfp_tool_nmap module loaded.
+2026-06-05 02:03:02,402 [INFO] sflib : sfp_tool_nuclei module loaded.
+2026-06-05 02:03:02,411 [INFO] sflib : sfp_tool_onesixtyone module loaded.
+2026-06-05 02:03:02,427 [INFO] sflib : sfp_tool_retirejs module loaded.
+2026-06-05 02:03:02,435 [INFO] sflib : sfp_tool_snallygaster module loaded.
+2026-06-05 02:03:02,445 [INFO] sflib : sfp_tool_testsslsh module loaded.
+2026-06-05 02:03:02,454 [INFO] sflib : sfp_tool_trufflehog module loaded.
+2026-06-05 02:03:02,462 [INFO] sflib : sfp_tool_wafw00f module loaded.
+2026-06-05 02:03:02,471 [INFO] sflib : sfp_tool_wappalyzer module loaded.
+2026-06-05 02:03:02,481 [INFO] sflib : sfp_tool_whatweb module loaded.
+2026-06-05 02:03:02,491 [INFO] sflib : sfp_torch module loaded.
+2026-06-05 02:03:02,500 [INFO] sflib : sfp_torexits module loaded.
+2026-06-05 02:03:02,508 [INFO] sflib : sfp_trashpanda module loaded.
+2026-06-05 02:03:02,516 [INFO] sflib : sfp_trumail module loaded.
+2026-06-05 02:03:02,524 [INFO] sflib : sfp_twilio module loaded.
+2026-06-05 02:03:02,532 [INFO] sflib : sfp_twitter module loaded.
+2026-06-05 02:03:02,541 [INFO] sflib : sfp_uceprotect module loaded.
+2026-06-05 02:03:02,765 [INFO] sflib : sfp_urlscan module loaded.
+2026-06-05 02:03:02,774 [INFO] sflib : sfp_venmo module loaded.
+2026-06-05 02:03:02,781 [INFO] sflib : sfp_viewdns module loaded.
+2026-06-05 02:03:02,789 [INFO] sflib : sfp_virustotal module loaded.
+2026-06-05 02:03:02,796 [INFO] sflib : sfp_voipbl module loaded.
+2026-06-05 02:03:02,803 [INFO] sflib : sfp_vxvault module loaded.
+2026-06-05 02:03:02,810 [INFO] sflib : sfp_webanalytics module loaded.
+2026-06-05 02:03:02,819 [INFO] sflib : sfp_webframework module loaded.
+2026-06-05 02:03:02,827 [INFO] sflib : sfp_webserver module loaded.
+2026-06-05 02:03:02,834 [INFO] sflib : sfp_whatcms module loaded.
+2026-06-05 02:03:02,843 [INFO] sflib : sfp_whois module loaded.
+2026-06-05 02:03:02,851 [INFO] sflib : sfp_whoisology module loaded.
+2026-06-05 02:03:02,859 [INFO] sflib : sfp_whoxy module loaded.
+2026-06-05 02:03:02,867 [INFO] sflib : sfp_wigle module loaded.
+2026-06-05 02:03:02,876 [INFO] sflib : sfp_wikileaks module loaded.
+2026-06-05 02:03:02,884 [INFO] sflib : sfp_wikipediaedits module loaded.
+2026-06-05 02:03:02,892 [INFO] sflib : sfp_xforce module loaded.
+2026-06-05 02:03:02,901 [INFO] sflib : sfp_yandexdns module loaded.
+2026-06-05 02:03:02,911 [INFO] sflib : sfp_zetalytics module loaded.
+2026-06-05 02:03:02,920 [INFO] sflib : sfp_zoneh module loaded.
+2026-06-05 02:03:03,518 [INFO] sflib : Fetching (GET): https://lists.blocklist.de/lists/all.txt (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=5, cookies=None)
+2026-06-05 02:03:03,528 [INFO] sflib : Fetching (GET): https://rules.emergingthreats.net/blockrules/compromised-ips.txt (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=5, cookies=None)
+2026-06-05 02:03:03,915 [INFO] sflib : Fetched https://lists.blocklist.de/lists/all.txt (342993 bytes in 0.39730286598205566s)
+2026-06-05 02:03:03,986 [ERROR] sfp_fsecure_riddler : You enabled sfp_fsecure_riddler but did not set an API username/password!
+2026-06-05 02:03:03,986 [INFO] sflib : Fetching (GET): https://www.fortiguard.com/search?q=192.168.1.67&engine=8 (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=5, cookies=None)
+2026-06-05 02:03:04,002 [ERROR] sfp_focsec : You enabled sfp_focsec but did not set an API key!
+2026-06-05 02:03:04,002 [ERROR] sfp_fraudguard : You enabled sfp_fraudguard but did not set an API username/password!
+2026-06-05 02:03:04,002 [ERROR] sfp_googlesafebrowsing : You enabled sfp_googlesafebrowsing but did not set an API key!
+2026-06-05 02:03:04,002 [INFO] sflib : Fetching (GET): https://cinsscore.com/list/ci-badguys.txt (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=5, cookies=None)
+2026-06-05 02:03:04,690 [INFO] sflib : Fetched https://rules.emergingthreats.net/blockrules/compromised-ips.txt (7396 bytes in 1.1622745990753174s)
+2026-06-05 02:03:04,693 [INFO] sflib : Fetching (GET): https://www.zone-h.org/rss/specialdefacements (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=30, cookies=None)
+2026-06-05 02:03:04,843 [INFO] sflib : Fetched https://cinsscore.com/list/ci-badguys.txt (0 bytes in 0.8410165309906006s)
+2026-06-05 02:03:04,847 [INFO] sflib : Fetching (GET): https://api.hackertarget.com/reverseiplookup/?q=192.168.1.67 (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=5, cookies=None)
+2026-06-05 02:03:05,665 [INFO] sflib : Fetched https://www.zone-h.org/rss/specialdefacements (8237 bytes in 0.9717204570770264s)
+2026-06-05 02:03:05,669 [INFO] sflib : Fetching (GET): https://cybercrime-tracker.net/all.php (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=10, cookies=None)
+2026-06-05 02:03:05,758 [INFO] sflib : Fetched https://api.hackertarget.com/reverseiplookup/?q=192.168.1.67 (33 bytes in 0.9117600917816162s)
+2026-06-05 02:03:05,759 [ERROR] sfp_xforce : You enabled sfp_xforce but did not set an API key/password!
+2026-06-05 02:03:05,759 [ERROR] sfp_greynoise : You enabled sfp_greynoise but did not set an API key!
+2026-06-05 02:03:05,760 [INFO] sflib : Fetching (GET): https://blocklist.greensnow.co/greensnow.txt (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=5, cookies=None)
+2026-06-05 02:03:07,215 [INFO] sflib : Fetched https://cybercrime-tracker.net/all.php (876492 bytes in 1.5461983680725098s)
+2026-06-05 02:03:07,307 [ERROR] sfp_honeypot : You enabled sfp_honeypot but did not set an API key!
+2026-06-05 02:03:07,311 [INFO] sflib : Fetching (POST): https://www.hybrid-analysis.com/api/v2/search/terms (proxy=None, user-agent=Falcon Sandbox, timeout=15, cookies=None)
+2026-06-05 02:03:07,821 [INFO] sflib : Fetched https://www.fortiguard.com/search?q=192.168.1.67&engine=8 (103045 bytes in 3.8351962566375732s)
+2026-06-05 02:03:07,825 [INFO] sflib : Fetching (GET): https://feodotracker.abuse.ch/downloads/ipblocklist.txt (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=5, cookies=None)
+2026-06-05 02:03:07,827 [INFO] sflib : Fetched https://www.hybrid-analysis.com/api/v2/search/terms (39 bytes in 0.5159201622009277s)
+2026-06-05 02:03:08,707 [INFO] sflib : Fetched https://feodotracker.abuse.ch/downloads/ipblocklist.txt (565 bytes in 0.8820602893829346s)
+2026-06-05 02:03:08,711 [INFO] sflib : Fetching (GET): https://sslbl.abuse.ch/blacklist/sslipblacklist.csv (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=5, cookies=None)
+2026-06-05 02:03:08,829 [ERROR] sfp_hybrid_analysis : Failed to retrieve content from Hybrid Analysis: Unexpected response status 404
+2026-06-05 02:03:08,829 [ERROR] sfp_ipstack : You enabled sfp_ipstack but did not set an API key!
+2026-06-05 02:03:08,829 [ERROR] sfp_abstractapi : You enabled sfp_abstractapi but did not set any API keys!
+2026-06-05 02:03:08,829 [ERROR] sfp_ipinfo : You enabled sfp_ipinfo but did not set an API key!
+2026-06-05 02:03:08,829 [ERROR] sfp_ipqualityscore : You enabled sfp_ipqualityscore but did not set an API Key!
+2026-06-05 02:03:08,829 [ERROR] sfp_abusix : You enabled sfp_abusix but did not set an API key!
+2026-06-05 02:03:08,830 [INFO] sflib : Fetching (GET): https://ipapi.co/192.168.1.67/json/ (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=5, cookies=None)
+2026-06-05 02:03:09,469 [INFO] sflib : Fetched https://ipapi.co/192.168.1.67/json/ (5602 bytes in 0.638103723526001s)
+2026-06-05 02:03:09,559 [INFO] sflib : Fetched https://sslbl.abuse.ch/blacklist/sslipblacklist.csv (545 bytes in 0.8482751846313477s)
+2026-06-05 02:03:09,562 [INFO] sflib : Fetching (GET): https://urlhaus.abuse.ch/downloads/csv_recent/ (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=5, cookies=None)
+2026-06-05 02:03:10,970 [INFO] sfp_ipapico : No results returned from ipapi.co
+2026-06-05 02:03:10,970 [ERROR] sfp_intelx : You enabled sfp_intelx but did not set an API key and/or base URL!
+2026-06-05 02:03:10,970 [ERROR] sfp_ipregistry : You enabled sfp_ipregistry but did not set an API key!
+2026-06-05 02:03:10,971 [INFO] sflib : Fetching (GET): http://multiproxy.org/txt_all/proxy.txt (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=5, cookies=None)
+2026-06-05 02:03:11,024 [INFO] sflib : Fetched https://urlhaus.abuse.ch/downloads/csv_recent/ (3777093 bytes in 1.4617726802825928s)
+2026-06-05 02:03:11,129 [INFO] sflib : Fetching (GET): https://isc.sans.edu/api/ip/192.168.1.67 (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=5, cookies=None)
+2026-06-05 02:03:12,577 [INFO] sflib : Fetched https://isc.sans.edu/api/ip/192.168.1.67 (571 bytes in 1.4475834369659424s)
+2026-06-05 02:03:12,580 [ERROR] sfp_malwarepatrol : You enabled sfp_malwarepatrol but did not provide a receipt ID!
+2026-06-05 02:03:12,580 [INFO] sflib : Fetching (GET): https://api.mnemonic.no/pdns/v3/192.168.1.67?limit=500&offset=0 (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=30, cookies=None)
+2026-06-05 02:03:12,763 [ERROR] sflib : Failed to connect to https://blocklist.greensnow.co/greensnow.txt
+2026-06-05 02:03:12,765 [ERROR] sfp_greensnow : Unable to fetch https://blocklist.greensnow.co/greensnow.txt
+2026-06-05 02:03:12,765 [ERROR] sfp_metadefender : You enabled sfp_metadefender but did not set an API key!
+2026-06-05 02:03:12,765 [ERROR] sfp_abuseipdb : You enabled sfp_abuseipdb but did not set an API key!
+2026-06-05 02:03:12,765 [ERROR] sfp_censys : You enabled sfp_censys but did not set an API uid/secret!
+2026-06-05 02:03:12,765 [ERROR] sfp_neutrinoapi : You enabled sfp_neutrinoapi but did not set an API key!
+2026-06-05 02:03:12,765 [ERROR] sfp_onyphe : You enabled sfp_onyphe, but did not set an API key!
+2026-06-05 02:03:12,765 [ERROR] sfp_networksdb : You enabled sfp_networksdb but did not set an API key!
+2026-06-05 02:03:12,767 [INFO] sflib : Fetching (GET): https://phishstats.info:2096/api/phishing?_where=%28ip%2Ceq%2C192.168.1.67%29&_size=1 (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=15, cookies=None)
+2026-06-05 02:03:12,973 [INFO] sflib : Fetched http://multiproxy.org/txt_all/proxy.txt (2987 bytes in 2.001685857772827s)
+2026-06-05 02:03:12,976 [ERROR] sfp_badpackets : You enabled sfp_badpackets but did not set an API key!
+2026-06-05 02:03:12,976 [ERROR] sfp_riskiq : You enabled sfp_riskiq but did not set an credentials!
+2026-06-05 02:03:12,976 [INFO] sfp_portscan_tcp : Scanning 49 ports on 192.168.1.67
+2026-06-05 02:03:12,976 [INFO] sfp_portscan_tcp : Spawning thread to check port: 137 on 192.168.1.67
+2026-06-05 02:03:12,977 [INFO] sfp_portscan_tcp : Spawning thread to check port: 88 on 192.168.1.67
+2026-06-05 02:03:12,977 [INFO] sfp_portscan_tcp : Spawning thread to check port: 8888 on 192.168.1.67
+2026-06-05 02:03:12,980 [INFO] sfp_portscan_tcp : Spawning thread to check port: 111 on 192.168.1.67
+2026-06-05 02:03:12,985 [INFO] sfp_portscan_tcp : Spawning thread to check port: 990 on 192.168.1.67
+2026-06-05 02:03:12,986 [INFO] sfp_portscan_tcp : Spawning thread to check port: 3389 on 192.168.1.67
+2026-06-05 02:03:12,991 [INFO] sfp_portscan_tcp : Spawning thread to check port: 110 on 192.168.1.67
+2026-06-05 02:03:12,991 [INFO] sfp_portscan_tcp : Spawning thread to check port: 1433 on 192.168.1.67
+2026-06-05 02:03:12,993 [INFO] sfp_portscan_tcp : Spawning thread to check port: 5631 on 192.168.1.67
+2026-06-05 02:03:12,995 [INFO] sfp_portscan_tcp : Spawning thread to check port: 465 on 192.168.1.67
+2026-06-05 02:03:22,905 [INFO] sflib : Fetched https://api.mnemonic.no/pdns/v3/192.168.1.67?limit=500&offset=0 (175752 bytes in 10.324751138687134s)
+2026-06-05 02:03:23,658 [INFO] sfp_mnemonic : Retrieved 500 of 1000 results
+2026-06-05 02:03:23,669 [INFO] sflib : Fetching (GET): https://api.mnemonic.no/pdns/v3/192.168.1.67?limit=500&offset=500 (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=30, cookies=None)
+2026-06-05 02:03:25,715 [INFO] sflib : Fetched https://api.mnemonic.no/pdns/v3/192.168.1.67?limit=500&offset=500 (176154 bytes in 2.0459041595458984s)
+2026-06-05 02:03:26,469 [INFO] sfp_mnemonic : Retrieved 500 of 1000 results
+2026-06-05 02:03:26,476 [INFO] sfp_botscout : You enabled sfp_botscout but did not set an API key! Queries will be limited to 100 per day.
+2026-06-05 02:03:26,476 [INFO] sflib : Fetching (GET): https://botscout.com/test/?ip=192.168.1.67&key= (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=5, cookies=None)
+2026-06-05 02:03:27,392 [INFO] sflib : Fetched https://botscout.com/test/?ip=192.168.1.67&key= (0 bytes in 0.9154167175292969s)
+2026-06-05 02:03:27,394 [ERROR] sfp_botscout : No response from BotScout.
+2026-06-05 02:03:27,395 [INFO] sflib : Fetching (GET): https://freeapi.robtex.com/ipquery/192.168.1.67 (proxy=None, user-agent=SpiderFoot, timeout=5, cookies=None)
+2026-06-05 02:03:27,990 [ERROR] sflib : Failed to connect to https://phishstats.info:2096/api/phishing?_where=%28ip%2Ceq%2C192.168.1.67%29&_size=1
+2026-06-05 02:03:27,991 [ERROR] sfp_binaryedge : You enabled sfp_binaryedge but did not set an API key!
+2026-06-05 02:03:27,991 [ERROR] sfp_alienvault : You enabled sfp_alienvault but did not set an API key!
+2026-06-05 02:03:27,992 [INFO] sflib : Fetching (GET): https://iplists.firehol.org/files/cleantalk_7d.ipset (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=5, cookies=None)
+2026-06-05 02:03:28,325 [INFO] sfp_portscan_tcp : TCP port 192.168.1.67:111 found to be OPEN.
+2026-06-05 02:03:28,326 [INFO] sfp_portscan_tcp : Spawning thread to check port: 1080 on 192.168.1.67
+2026-06-05 02:03:28,331 [INFO] sflib : Fetched https://freeapi.robtex.com/ipquery/192.168.1.67 (171 bytes in 0.9352679252624512s)
+2026-06-05 02:03:28,333 [INFO] sfp_portscan_tcp : Spawning thread to check port: 143 on 192.168.1.67
+2026-06-05 02:03:28,341 [INFO] sfp_portscan_tcp : Spawning thread to check port: 119 on 192.168.1.67
+2026-06-05 02:03:28,343 [INFO] sfp_portscan_tcp : Spawning thread to check port: 513 on 192.168.1.67
+2026-06-05 02:03:28,345 [INFO] sfp_portscan_tcp : Spawning thread to check port: 138 on 192.168.1.67
+2026-06-05 02:03:28,346 [INFO] sfp_portscan_tcp : Spawning thread to check port: 23 on 192.168.1.67
+2026-06-05 02:03:28,347 [INFO] sfp_portscan_tcp : Spawning thread to check port: 512 on 192.168.1.67
+2026-06-05 02:03:28,348 [INFO] sfp_portscan_tcp : Spawning thread to check port: 636 on 192.168.1.67
+2026-06-05 02:03:28,355 [INFO] sfp_portscan_tcp : Spawning thread to check port: 5901 on 192.168.1.67
+2026-06-05 02:03:28,356 [INFO] sfp_portscan_tcp : Spawning thread to check port: 80 on 192.168.1.67
+2026-06-05 02:03:28,901 [INFO] sflib : Fetched https://iplists.firehol.org/files/cleantalk_7d.ipset (132005 bytes in 0.9093794822692871s)
+2026-06-05 02:03:28,911 [ERROR] sfp_securitytrails : You enabled sfp_securitytrails but did not set an API uid/secret!
+2026-06-05 02:03:28,911 [ERROR] sfp_shodan : You enabled sfp_shodan but did not set an API key!
+2026-06-05 02:03:28,913 [INFO] sflib : Fetching (GET): https://reputation.alienvault.com/reputation.generic (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=5, cookies=None)
+2026-06-05 02:03:29,976 [INFO] sflib : Fetched https://reputation.alienvault.com/reputation.generic (40171 bytes in 1.0632481575012207s)
+2026-06-05 02:03:29,980 [ERROR] sfp_dnsdb : You enabled sfp_dnsdb but did not set an API key!
+2026-06-05 02:03:30,158 [ERROR] sfp_spamhaus : Spamhaus denied query via public/open resolver
+2026-06-05 02:03:30,159 [INFO] sflib : Fetching (GET): https://stat.ripe.net/data/network-info/data.json?resource=192.168.1.67 (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=5, cookies=None)
+2026-06-05 02:03:30,680 [INFO] sflib : Fetched https://stat.ripe.net/data/network-info/data.json?resource=192.168.1.67 (384 bytes in 0.5210111141204834s)
+2026-06-05 02:03:30,682 [INFO] sflib : Fetching (GET): https://stat.ripe.net/data/whois/data.json?resource= (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=5, cookies=None)
+2026-06-05 02:03:31,639 [ERROR] sfp_pulsedive : You enabled sfp_pulsedive but did not set an API key!
+2026-06-05 02:03:31,639 [ERROR] sfp_seon : You enabled sfp_seon but did not set an API key!
+2026-06-05 02:03:31,639 [ERROR] sfp_spur : You enabled sfp_spur but did not set an API key!
+2026-06-05 02:03:31,639 [ERROR] sfp_spyonweb : You enabled sfp_spyonweb but did not set an API key!
+2026-06-05 02:03:31,639 [ERROR] sfp_spyse : You enabled sfp_spyse but did not set an API key!
+2026-06-05 02:03:31,642 [INFO] sfp_sslcert : Unable to SSL-connect to 192.168.1.67 (module 'ssl' has no attribute 'wrap_socket')
+2026-06-05 02:03:31,643 [ERROR] sfp_bingsharedip : You enabled sfp_bingsharedip but did not set a Bing API key!
+2026-06-05 02:03:31,643 [INFO] sflib : Fetching (POST): https://threatfox-api.abuse.ch/api/v1/ (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=5, cookies=None)
+2026-06-05 02:03:32,189 [INFO] sflib : Fetched https://threatfox-api.abuse.ch/api/v1/ (25 bytes in 0.5462925434112549s)
+2026-06-05 02:03:33,193 [ERROR] sfp_threatfox : Unexpected reply from ThreatFox: 401
+2026-06-05 02:03:33,194 [INFO] sflib : Fetching (GET): https://api.bgpview.io/ip/192.168.1.67 (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=5, cookies=None)
+2026-06-05 02:03:33,318 [ERROR] sflib : Failed to connect to https://api.bgpview.io/ip/192.168.1.67
+2026-06-05 02:03:34,318 [INFO] sfp_bgpview : No results found for IP address 192.168.1.67
+2026-06-05 02:03:34,319 [ERROR] sfp_tool_onesixtyone : You enabled sfp_tool_onesixtyone but did not set a path to the tool!
+2026-06-05 02:03:34,319 [ERROR] sfp_tool_nuclei : You enabled sfp_tool_nuclei but did not set a path to the tool and/or templates!
+2026-06-05 02:03:34,319 [ERROR] sfp_c99 : You enabled sfp_c99, but did not set an API key!
+2026-06-05 02:03:34,552 [INFO] sflib : Fetching (GET): https://onionoo.torproject.org/details?search=flag:exit (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=5, cookies=None)
+2026-06-05 02:03:36,017 [ERROR] sflib : Failed to connect to https://stat.ripe.net/data/whois/data.json?resource=
+2026-06-05 02:03:36,392 [INFO] sflib : Fetching (GET): https://api.threatminer.org/v2/host.php?q=192.168.1.67&rt=2 (proxy=None, user-agent=SpiderFoot, timeout=10, cookies=None)
+2026-06-05 02:03:37,295 [INFO] sflib : Fetched https://api.threatminer.org/v2/host.php?q=192.168.1.67&rt=2 (0 bytes in 0.9031846523284912s)
+2026-06-05 02:03:37,302 [INFO] sfp_threatminer : No ThreatMiner info found for 192.168.1.67
+2026-06-05 02:03:37,302 [INFO] sfp_threatminer : No Passive DNS info for 192.168.1.67
+2026-06-05 02:03:37,303 [INFO] sflib : Fetching (GET): https://raw.githubusercontent.com/client9/ipcat/master/datacenters.csv (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=30, cookies=None)
+2026-06-05 02:03:37,630 [INFO] sflib : Fetched https://raw.githubusercontent.com/client9/ipcat/master/datacenters.csv (229270 bytes in 0.326873779296875s)
+2026-06-05 02:03:37,676 [ERROR] sfp_iknowwhatyoudownload : You enabled sfp_iknowwhatyoudownload but did not set an API key!
+2026-06-05 02:03:37,676 [ERROR] sfp_tool_testsslsh : You enabled sfp_tool_testsslsh but did not set a path to the tool!
+2026-06-05 02:03:37,676 [ERROR] sfp_tool_nbtscan : You enabled sfp_tool_nbtscan but did not set a path to the tool!
+2026-06-05 02:03:37,676 [ERROR] sfp_tool_nmap : You enabled sfp_tool_nmap but did not set a path to the tool!
+2026-06-05 02:03:37,676 [INFO] sflib : Fetching (GET): https://www.threatcrowd.org/searchApi/v2/ip/report/?ip=192.168.1.67 (proxy=None, user-agent=SpiderFoot, timeout=5, cookies=None)
+2026-06-05 02:03:38,333 [ERROR] sflib : Failed to connect to https://www.threatcrowd.org/searchApi/v2/ip/report/?ip=192.168.1.67
+2026-06-05 02:03:38,334 [INFO] sfp_threatcrowd : No ThreatCrowd info found for 192.168.1.67
+2026-06-05 02:03:38,336 [INFO] sflib : Fetching (GET): https://snort.org/downloads/ip-block-list (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=5, cookies=None)
+2026-06-05 02:03:38,925 [INFO] sflib : Fetched https://snort.org/downloads/ip-block-list (5605 bytes in 0.5885369777679443s)
+2026-06-05 02:03:38,925 [ERROR] sfp_talosintel : Unexpected HTTP response code 403 from Talos Intelligence.
+2026-06-05 02:03:38,926 [ERROR] sfp_ipapicom : You enabled sfp_ipapicom but did not set an API key!
+2026-06-05 02:03:38,926 [INFO] sflib : Fetching (GET): https://leakix.net/host/192.168.1.67 (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=15, cookies=None)
+2026-06-05 02:03:39,462 [INFO] sflib : Fetched https://leakix.net/host/192.168.1.67 (17 bytes in 0.5357012748718262s)
+2026-06-05 02:03:40,470 [ERROR] sfp_leakix : Failed to retrieve content from LeakIX
+2026-06-05 02:03:40,471 [INFO] sflib : Fetching (GET): https://api.maltiverse.com/ip/192.168.1.67 (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=15, cookies=None)
+2026-06-05 02:03:41,309 [INFO] sflib : Fetched https://api.maltiverse.com/ip/192.168.1.67 (73 bytes in 0.8380286693572998s)
+2026-06-05 02:03:41,314 [ERROR] sfp_maltiverse : Bad request. 192.168.1.67 is not a valid IP Address
+2026-06-05 02:03:42,220 [INFO] sflib : Fetched https://onionoo.torproject.org/details?search=flag:exit (22400561 bytes in 7.667917728424072s)
+2026-06-05 02:03:45,796 [ERROR] sfp_circllu : You enabled sfp_circllu but did not set an credentials!
+2026-06-05 02:03:45,796 [ERROR] sfp_customfeed : You enabled sfp_customfeed but defined no custom feed URL!
+2026-06-05 02:03:45,796 [ERROR] sfp_viewdns : You enabled sfp_viewdns but did not set an API key!
+2026-06-05 02:03:45,796 [ERROR] sfp_virustotal : You enabled sfp_virustotal but did not set an API key!
+2026-06-05 02:03:45,797 [INFO] sflib : Fetching (GET): https://voipbl.org/update (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=5, cookies=None)
+2026-06-05 02:03:45,800 [INFO] sfp_portscan_tcp : TCP port 192.168.1.67:80 found to be OPEN.
+2026-06-05 02:03:45,801 [INFO] sfp_portscan_tcp : Spawning thread to check port: 81 on 192.168.1.67
+2026-06-05 02:03:45,810 [INFO] sfp_portscan_tcp : Spawning thread to check port: 993 on 192.168.1.67
+2026-06-05 02:03:45,811 [INFO] sfp_portscan_tcp : Spawning thread to check port: 5432 on 192.168.1.67
+2026-06-05 02:03:45,833 [INFO] sfp_portscan_tcp : Spawning thread to check port: 1521 on 192.168.1.67
+2026-06-05 02:03:45,907 [INFO] sflib : Fetching (GET): https://www.threatcrowd.org/searchApi/v2/domain/report/?domain=cnipdfs.net (proxy=None, user-agent=SpiderFoot, timeout=5, cookies=None)
+2026-06-05 02:03:45,913 [INFO] sfp_portscan_tcp : Spawning thread to check port: 161 on 192.168.1.67
+2026-06-05 02:03:45,927 [INFO] sfp_portscan_tcp : Spawning thread to check port: 515 on 192.168.1.67
+2026-06-05 02:03:45,928 [INFO] sfp_portscan_tcp : Spawning thread to check port: 631 on 192.168.1.67
+2026-06-05 02:03:45,929 [INFO] sfp_portscan_tcp : Spawning thread to check port: 113 on 192.168.1.67
+2026-06-05 02:03:45,929 [INFO] sfp_portscan_tcp : Spawning thread to check port: 5902 on 192.168.1.67
+2026-06-05 02:03:45,931 [INFO] sfp_portscan_tcp : Spawning thread to check port: 79 on 192.168.1.67
+2026-06-05 02:03:46,449 [INFO] sfp_portscan_tcp : Spawning thread to check port: 389 on 192.168.1.67
+2026-06-05 02:03:46,450 [INFO] sfp_portscan_tcp : Spawning thread to check port: 22 on 192.168.1.67
+2026-06-05 02:03:46,453 [INFO] sfp_portscan_tcp : Spawning thread to check port: 179 on 192.168.1.67
+2026-06-05 02:03:46,455 [INFO] sfp_portscan_tcp : Spawning thread to check port: 2638 on 192.168.1.67
+2026-06-05 02:03:46,459 [INFO] sfp_portscan_tcp : Spawning thread to check port: 3306 on 192.168.1.67
+2026-06-05 02:03:46,460 [INFO] sfp_portscan_tcp : Spawning thread to check port: 445 on 192.168.1.67
+2026-06-05 02:03:46,462 [INFO] sfp_portscan_tcp : Spawning thread to check port: 21 on 192.168.1.67
+2026-06-05 02:03:46,463 [INFO] sfp_portscan_tcp : Spawning thread to check port: 5903 on 192.168.1.67
+2026-06-05 02:03:46,468 [INFO] sfp_portscan_tcp : Spawning thread to check port: 25 on 192.168.1.67
+2026-06-05 02:03:46,471 [INFO] sfp_portscan_tcp : Spawning thread to check port: 139 on 192.168.1.67
+2026-06-05 02:03:46,527 [ERROR] sflib : Failed to connect to https://www.threatcrowd.org/searchApi/v2/domain/report/?domain=cnipdfs.net
+2026-06-05 02:03:46,527 [INFO] sfp_threatcrowd : No ThreatCrowd info found for cnipdfs.net
+2026-06-05 02:03:46,527 [INFO] sflib : Fetching (GET): http://vxvault.net/URL_List.php (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=10, cookies=None)
+2026-06-05 02:03:47,378 [INFO] sflib : Fetched https://voipbl.org/update (1564824 bytes in 1.5811176300048828s)
+2026-06-05 02:03:48,465 [INFO] sflib : Fetched http://vxvault.net/URL_List.php (4545 bytes in 1.9376535415649414s)
+2026-06-05 02:03:48,774 [INFO] sflib : Fetching (GET): https://en.wikipedia.org/w/api.php?action=feedcontributions&user=XXX (proxy=None, user-agent=SpiderFoot, timeout=5, cookies=None)
+2026-06-05 02:03:49,831 [INFO] sflib : Fetching (GET): https://www.threatcrowd.org/searchApi/v2/domain/report/?domain=kihn.fr (proxy=None, user-agent=SpiderFoot, timeout=5, cookies=None)
+2026-06-05 02:03:49,861 [ERROR] sflib : Failed to connect to https://www.threatcrowd.org/searchApi/v2/domain/report/?domain=kihn.fr
+2026-06-05 02:03:49,861 [INFO] sfp_threatcrowd : No ThreatCrowd info found for kihn.fr
+2026-06-05 02:03:49,898 [INFO] sflib : Fetched https://en.wikipedia.org/w/api.php?action=feedcontributions&user=XXX (431 bytes in 1.123647689819336s)
+2026-06-05 02:03:51,605 [INFO] sflib : Fetching (HEAD): http://cnipdfs.net (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=5, cookies=None)
+2026-06-05 02:03:52,330 [INFO] sflib : Fetching (GET): http://cnipdfs.net (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=5, cookies=None)
+2026-06-05 02:03:52,553 [INFO] sflib : Fetched http://cnipdfs.net (2890 bytes in 0.9478702545166016s)
+2026-06-05 02:03:52,965 [INFO] sflib : Fetching (GET): https://www.openphish.com/feed.txt (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=10, cookies=None)
+2026-06-05 02:03:53,465 [INFO] sflib : Fetching (GET): https://www.threatcrowd.org/searchApi/v2/domain/report/?domain=mattgrier.com (proxy=None, user-agent=SpiderFoot, timeout=5, cookies=None)
+2026-06-05 02:03:53,479 [ERROR] sflib : Failed to connect to https://www.threatcrowd.org/searchApi/v2/domain/report/?domain=mattgrier.com
+2026-06-05 02:03:53,479 [INFO] sfp_threatcrowd : No ThreatCrowd info found for mattgrier.com
+2026-06-05 02:03:54,359 [INFO] sflib : Fetched https://www.openphish.com/feed.txt (15562 bytes in 1.3940730094909668s)
+2026-06-05 02:03:54,892 [INFO] sflib : Fetching (GET): https://www.botvrij.eu/data/blocklist/blocklist_full.csv (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=5, cookies=None)
+2026-06-05 02:03:55,376 [INFO] sflib : Fetching (HEAD): http://kihn.fr (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=5, cookies=None)
+2026-06-05 02:03:55,529 [INFO] sflib : Fetching (GET): http://kihn.fr (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=5, cookies=None)
+2026-06-05 02:03:56,097 [INFO] sflib : Fetched https://www.botvrij.eu/data/blocklist/blocklist_full.csv (384604 bytes in 1.2047057151794434s)
+2026-06-05 02:03:56,109 [INFO] sflib : Fetching (GET): https://data.phishtank.com/data/online-valid.csv (proxy=None, user-agent=SpiderFoot, timeout=5, cookies=None)
+2026-06-05 02:03:56,126 [INFO] sflib : Fetched http://kihn.fr (2890 bytes in 0.7504231929779053s)
+2026-06-05 02:03:56,926 [INFO] sflib : Fetching (GET): https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=5, cookies=None)
+2026-06-05 02:03:57,462 [INFO] sflib : Fetched https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts (2479544 bytes in 0.5361237525939941s)
+2026-06-05 02:03:57,520 [ERROR] threadpool : Error in thread worker sharedThreadPool_worker_2: Traceback (most recent call last):
+  File "/usr/share/spiderfoot/spiderfoot/threadpool.py", line 256, in run
+    result = callback(*args, **kwargs)
+  File "/usr/share/spiderfoot/modules/sfp_stevenblack_hosts.py", line 175, in handleEvent
+    if not self.queryBlocklist(eventData):
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/usr/share/spiderfoot/modules/sfp_stevenblack_hosts.py", line 74, in queryBlocklist
+    blocklist = self.retrieveBlocklist()
+  File "/usr/share/spiderfoot/modules/sfp_stevenblack_hosts.py", line 110, in retrieveBlocklist
+    return self.parseBlocklist(res['content'])
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/usr/share/spiderfoot/modules/sfp_stevenblack_hosts.py", line 131, in parseBlocklist
+    host = line.strip().split(" ")[1]
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-06-05 02:03:58,147 [INFO] sflib : Fetching (GET): https://www.threatcrowd.org/searchApi/v2/domain/report/?domain=ipswichmakerspace.com (proxy=None, user-agent=SpiderFoot, timeout=5, cookies=None)
+2026-06-05 02:03:58,171 [ERROR] sflib : Failed to connect to https://www.threatcrowd.org/searchApi/v2/domain/report/?domain=ipswichmakerspace.com
+2026-06-05 02:03:58,171 [INFO] sfp_threatcrowd : No ThreatCrowd info found for ipswichmakerspace.com
+2026-06-05 02:03:58,567 [INFO] sflib : Fetched https://data.phishtank.com/data/online-valid.csv (12270176 bytes in 2.4583663940429688s)
+2026-06-05 02:03:58,877 [ERROR] threadpool : Error in thread worker sharedThreadPool_worker_1: Traceback (most recent call last):
+  File "/usr/share/spiderfoot/spiderfoot/threadpool.py", line 256, in run
+    result = callback(*args, **kwargs)
+  File "/usr/share/spiderfoot/modules/sfp_stevenblack_hosts.py", line 175, in handleEvent
+    if not self.queryBlocklist(eventData):
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/usr/share/spiderfoot/modules/sfp_stevenblack_hosts.py", line 74, in queryBlocklist
+    blocklist = self.retrieveBlocklist()
+  File "/usr/share/spiderfoot/modules/sfp_stevenblack_hosts.py", line 89, in retrieveBlocklist
+    return self.parseBlocklist(blocklist)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/usr/share/spiderfoot/modules/sfp_stevenblack_hosts.py", line 131, in parseBlocklist
+    host = line.strip().split(" ")[1]
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-06-05 02:03:59,283 [INFO] sflib : Fetching (HEAD): http://mattgrier.com (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=5, cookies=None)
+2026-06-05 02:03:59,561 [INFO] sflib : Fetching (GET): http://mattgrier.com (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=5, cookies=None)
+2026-06-05 02:03:59,712 [INFO] sflib : Fetched http://mattgrier.com (2890 bytes in 0.4288008213043213s)
+2026-06-05 02:04:00,545 [INFO] sflib : Fetching (HEAD): http://ipswichmakerspace.com (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=5, cookies=None)
+2026-06-05 02:04:00,775 [INFO] sflib : Fetching (GET): http://ipswichmakerspace.com (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=5, cookies=None)
+2026-06-05 02:04:01,502 [ERROR] threadpool : Error in thread worker sharedThreadPool_worker_2: Traceback (most recent call last):
+  File "/usr/share/spiderfoot/spiderfoot/threadpool.py", line 256, in run
+    result = callback(*args, **kwargs)
+  File "/usr/share/spiderfoot/modules/sfp_stevenblack_hosts.py", line 175, in handleEvent
+    if not self.queryBlocklist(eventData):
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/usr/share/spiderfoot/modules/sfp_stevenblack_hosts.py", line 74, in queryBlocklist
+    blocklist = self.retrieveBlocklist()
+  File "/usr/share/spiderfoot/modules/sfp_stevenblack_hosts.py", line 89, in retrieveBlocklist
+    return self.parseBlocklist(blocklist)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/usr/share/spiderfoot/modules/sfp_stevenblack_hosts.py", line 131, in parseBlocklist
+    host = line.strip().split(" ")[1]
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-06-05 02:04:01,984 [INFO] sfp_portscan_tcp : TCP port 192.168.1.67:22 found to be OPEN.
+2026-06-05 02:04:01,985 [INFO] sfp_portscan_tcp : TCP port 192.168.1.67:139 found to be OPEN.
+2026-06-05 02:04:01,985 [INFO] sfp_portscan_tcp : Spawning thread to check port: 53 on 192.168.1.67
+2026-06-05 02:04:01,986 [INFO] sfp_portscan_tcp : Spawning thread to check port: 992 on 192.168.1.67
+2026-06-05 02:04:01,987 [INFO] sfp_portscan_tcp : Spawning thread to check port: 5900 on 192.168.1.67
+2026-06-05 02:04:01,991 [INFO] sfp_portscan_tcp : Spawning thread to check port: 995 on 192.168.1.67
+2026-06-05 02:04:01,993 [INFO] sfp_portscan_tcp : Spawning thread to check port: 8080 on 192.168.1.67
+2026-06-05 02:04:01,994 [INFO] sfp_portscan_tcp : Spawning thread to check port: 443 on 192.168.1.67
+2026-06-05 02:04:01,995 [INFO] sfp_portscan_tcp : Spawning thread to check port: 9000 on 192.168.1.67
+2026-06-05 02:04:01,998 [INFO] sfp_portscan_tcp : Spawning thread to check port: 123 on 192.168.1.67
+2026-06-05 02:04:02,002 [INFO] sfp_portscan_tcp : Spawning thread to check port: 514 on 192.168.1.67
+2026-06-05 02:04:04,495 [INFO] sflib : Fetched http://ipswichmakerspace.com (2890 bytes in 3.9505691528320312s)
+2026-06-05 02:04:09,486 [ERROR] threadpool : Error in thread worker sharedThreadPool_worker_1: Traceback (most recent call last):
+  File "/usr/share/spiderfoot/spiderfoot/threadpool.py", line 256, in run
+    result = callback(*args, **kwargs)
+  File "/usr/share/spiderfoot/modules/sfp_stevenblack_hosts.py", line 175, in handleEvent
+    if not self.queryBlocklist(eventData):
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/usr/share/spiderfoot/modules/sfp_stevenblack_hosts.py", line 74, in queryBlocklist
+    blocklist = self.retrieveBlocklist()
+  File "/usr/share/spiderfoot/modules/sfp_stevenblack_hosts.py", line 89, in retrieveBlocklist
+    return self.parseBlocklist(blocklist)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/usr/share/spiderfoot/modules/sfp_stevenblack_hosts.py", line 131, in parseBlocklist
+    host = line.strip().split(" ")[1]
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-06-05 02:04:09,676 [INFO] sflib : Fetching (GET): https://zerodot1.gitlab.io/CoinBlockerLists/list.txt (proxy=None, user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0, timeout=5, cookies=None)
+2026-06-05 02:04:11,493 [INFO] sflib : Fetched https://zerodot1.gitlab.io/CoinBlockerLists/list.txt (5589 bytes in 1.8163175582885742s)
+2026-06-05 02:04:11,493 [ERROR] sfp_coinblocker : Unexpected HTTP response code 403 from https://zerodot1.gitlab.io/CoinBlockerLists/list.txt
+2026-06-05 02:04:17,470 [INFO] sfp_portscan_tcp : TCP port 192.168.1.67:443 found to be OPEN.
+2026-06-05 02:04:24,539 [INFO] sfp_email : Found e-mail address: domainabuse@cscglobal.com
+2026-06-05 02:04:26,337 [INFO] sfp_email : Found e-mail address: hostmaster@1und1.de
+2026-06-05 02:04:26,387 [INFO] sfp_email : Found e-mail address: hostmaster@1and1.fr
+2026-06-05 02:04:29,035 [INFO] sfp_email : Found e-mail address: abuse-complaints@squarespace.com
+2026-06-05 02:04:30,860 [INFO] sfp_email : Found e-mail address: dataprivacyprotected@ionos.de
+2026-06-05 02:04:30,902 [INFO] sfp_email : Found e-mail address: abuse@ionos.com
+2026-06-05 02:04:32,596 [INFO] sflib : Running 37 correlation rules.
+2026-06-05 02:04:32,734 [INFO] correlation : Rule open_port_version returned 1 results.
+2026-06-05 02:04:32,734 [INFO] correlation : New correlation [open_port_version]: Software version revealed on open port: SSH-1.99-OpenSSH_2.9p2
+2026-06-05 02:04:32,772 [INFO] sflib : Scan [F8A47A7C] completed.
